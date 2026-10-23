@@ -1,0 +1,19 @@
+[package]
+name = "veilgov-paillier"
+description = "EXPERIMENTAL educational Paillier adapter — NOT production ready"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+num-bigint = { workspace = true }
+num-traits = { workspace = true }
+num-integer = { workspace = true }
+rand = { workspace = true }
+thiserror = { workspace = true }
+zeroize = { workspace = true }
+serde = { workspace = true }
+hex = { workspace = true }
+sha2 = { workspace = true }

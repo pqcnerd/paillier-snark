@@ -1,0 +1,14 @@
+/target/
+**/target/
+/contracts/evm/out/
+/contracts/evm/cache/
+/contracts/evm/broadcast/
+/contracts/evm/lib/
+.env
+*.pem
+*.key
+VEILGOV_PAILLIER_SK*
+.idea/
+.vscode/
+*.swp
+Cargo.lock.bak

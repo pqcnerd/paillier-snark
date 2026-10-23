@@ -1,0 +1,25 @@
+[package]
+name = "veilgov-integration-tests"
+description = "Adversarial and end-to-end integration tests"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+veilgov-protocol-types = { workspace = true }
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+veilgov-identity = { workspace = true }
+veilgov-merkle = { workspace = true }
+veilgov-snapshot-core = { workspace = true }
+veilgov-snapshot-ethereum = { workspace = true }
+veilgov-snapshot-solana = { workspace = true }
+veilgov-enrollment = { workspace = true }
+veilgov-paillier = { workspace = true }
+veilgov-ballot = { workspace = true }
+veilgov-tally = { workspace = true }
+veilgov-zk-ballot = { workspace = true }
+rand = { workspace = true }
+ark-bn254 = { workspace = true }
+hex = { workspace = true }

@@ -1,0 +1,17 @@
+[package]
+name = "veilgov-domains"
+description = "Domain separators and Poseidon hash parameters for VeilGov"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-encoding = { workspace = true }
+ark-ff = { workspace = true }
+ark-bn254 = { workspace = true }
+sha2 = { workspace = true }
+sha3 = { workspace = true }
+hex = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

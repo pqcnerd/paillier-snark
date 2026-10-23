@@ -1,0 +1,25 @@
+[package]
+name = "veilgov-ballot"
+description = "Pure Rust ballot predicate and statement builder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-protocol-types = { workspace = true }
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+veilgov-identity = { workspace = true }
+veilgov-merkle = { workspace = true }
+veilgov-paillier = { workspace = true }
+veilgov-snapshot-core = { workspace = true }
+ark-bn254 = { workspace = true }
+ark-ff = { workspace = true }
+num-bigint = { workspace = true }
+num-integer = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+rand = { workspace = true }
+hex = { workspace = true }
+sha2 = { workspace = true }
+serde_json = { workspace = true }

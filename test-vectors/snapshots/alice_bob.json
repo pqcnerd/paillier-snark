@@ -1,0 +1,12 @@
+{
+  "merkle_depth_mvp": 8,
+  "eth_holders": [
+    { "label": "alice", "balance": 60 },
+    { "label": "bob", "balance": 20 }
+  ],
+  "sol_holders": [
+    { "label": "alice", "amount": 40 },
+    { "label": "bob", "amount": 30 }
+  ],
+  "solana_trust": "quorum-attested retained-bank; not trustless inclusion proofs"
+}

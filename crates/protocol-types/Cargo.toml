@@ -1,0 +1,13 @@
+[package]
+name = "veilgov-protocol-types"
+description = "Versioned IDs, bounds, and election configuration types"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-encoding = { workspace = true }
+veilgov-domains = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+hex = { workspace = true }

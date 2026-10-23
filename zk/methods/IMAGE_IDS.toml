@@ -1,0 +1,6 @@
+# Generated constants live in the `veilgov-zk-methods` crate.
+# This human-readable manifest is updated by `scripts/update-zk-image-id.sh`.
+ballot_guest_image_id = "a7249bd091e1adccfc9c0224a1d3a6e4105e74b04f8fae392862621d188657a7"
+backend_mvp = "risc0-3.0.6"
+proof_mode_local = "composite"
+proof_mode_evm = "groth16 (deferred until router integration)"

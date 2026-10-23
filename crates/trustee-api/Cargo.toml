@@ -1,0 +1,13 @@
+[package]
+name = "veilgov-trustee"
+description = "Trustee API: single-key DEVELOPMENT mode + future threshold trait"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-paillier = { workspace = true }
+num-bigint = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+zeroize = { workspace = true }

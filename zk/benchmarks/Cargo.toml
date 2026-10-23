@@ -1,0 +1,18 @@
+[package]
+name = "veilgov-benchmarks"
+description = "Native proof-path benchmarks and zkVM go/no-go notes"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[[bin]]
+name = "veilgov-bench"
+path = "src/main.rs"
+
+[dependencies]
+veilgov-paillier = { workspace = true }
+veilgov-merkle = { workspace = true }
+veilgov-domains = { workspace = true }
+rand = { workspace = true }
+ark-bn254 = { workspace = true }

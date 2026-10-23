@@ -1,0 +1,36 @@
+[package]
+name = "veilgov"
+description = "VeilGov CLI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "veilgov"
+path = "src/main.rs"
+
+[dependencies]
+veilgov-protocol-types = { workspace = true }
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+veilgov-identity = { workspace = true }
+veilgov-merkle = { workspace = true }
+veilgov-snapshot-core = { workspace = true }
+veilgov-snapshot-ethereum = { workspace = true }
+veilgov-snapshot-solana = { workspace = true }
+veilgov-enrollment = { workspace = true }
+veilgov-paillier = { workspace = true }
+veilgov-ballot = { workspace = true }
+veilgov-tally = { workspace = true }
+veilgov-trustee = { workspace = true }
+veilgov-zk-ballot = { workspace = true }
+clap = { workspace = true }
+anyhow = { workspace = true }
+rand = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+hex = { workspace = true }
+ark-bn254 = { workspace = true }
+ark-ff = { workspace = true }
+k256 = { workspace = true }
+ed25519-dalek = { workspace = true }

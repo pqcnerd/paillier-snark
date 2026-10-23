@@ -1,0 +1,14 @@
+{
+  "encoding_version": 1,
+  "endianness": "big",
+  "paillier_ct_len": 512,
+  "paillier_n_len": 256,
+  "plaintext_base_bits": 128,
+  "pack": "m = (w*v) + 2^128 * w",
+  "demo": {
+    "alice": { "w": 100, "v": 1, "yes": 100, "total": 100 },
+    "bob": { "w": 50, "v": 0, "yes": 0, "total": 50 },
+    "aggregate": { "yes": 100, "no": 50, "total": 150 }
+  },
+  "warning": "DEVELOPMENT ONLY — educational Paillier"
+}

@@ -1,0 +1,20 @@
+[package]
+name = "veilgov-snapshot-core"
+description = "Snapshot records, manifests, and quorum signatures"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+veilgov-merkle = { workspace = true }
+ark-bn254 = { workspace = true }
+ark-ff = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+hex = { workspace = true }
+sha2 = { workspace = true }
+ed25519-dalek = { workspace = true }
+rand = { workspace = true }

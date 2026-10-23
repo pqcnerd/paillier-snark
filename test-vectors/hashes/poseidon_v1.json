@@ -1,0 +1,17 @@
+{
+  "tag": "VEILGOV_POSEIDON_V1",
+  "note": "Seed-derived Poseidon-BN254 parameters for VeilGov MVP — not Circom-compatible until audited alignment",
+  "vectors": [
+    {
+      "name": "hash2_1_2",
+      "inputs": ["1", "2"],
+      "description": "poseidon.hash2(Fr(1), Fr(2)) — regenerate via cargo test -p veilgov-domains"
+    },
+    {
+      "name": "tagged_id_7",
+      "tag": "VEILGOV_ID_V1",
+      "inputs": ["7"],
+      "description": "hash_tagged(ID, [7])"
+    }
+  ]
+}

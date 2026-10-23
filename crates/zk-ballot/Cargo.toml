@@ -1,0 +1,17 @@
+[package]
+name = "veilgov-zk-ballot"
+description = "RISC Zero ballot proving and public-only verification"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-ballot = { workspace = true }
+veilgov-domains = { workspace = true }
+veilgov-protocol-types = { workspace = true }
+veilgov-zk-methods = { path = "../../zk/methods" }
+anyhow = { workspace = true }
+bincode = { workspace = true }
+risc0-zkvm = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }

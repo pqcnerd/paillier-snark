@@ -1,0 +1,18 @@
+[package]
+name = "veilgov-snapshot-solana"
+description = "Solana SPL token snapshot and Ed25519 enrollment (quorum-attested)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-snapshot-core = { workspace = true }
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+ark-bn254 = { workspace = true }
+ed25519-dalek = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+hex = { workspace = true }
+rand = { workspace = true }
+sha2 = { workspace = true }

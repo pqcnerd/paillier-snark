@@ -1,0 +1,13 @@
+[package]
+name = "veilgov-zk-methods"
+description = "Pinned RISC Zero VeilGov guest ELF and image ID"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[build-dependencies]
+risc0-build = "=3.0.6"
+
+[package.metadata.risc0]
+methods = ["../ballot-guest"]

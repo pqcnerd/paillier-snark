@@ -1,0 +1,16 @@
+[package]
+name = "veilgov-tally"
+description = "Exact-set ballot aggregation and result decode"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-merkle = { workspace = true }
+veilgov-ballot = { workspace = true }
+veilgov-paillier = { workspace = true }
+veilgov-encoding = { workspace = true }
+num-bigint = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+sha2 = { workspace = true }

@@ -1,0 +1,16 @@
+[package]
+name = "veilgov-identity"
+description = "Identity commitments and nullifiers"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+veilgov-domains = { workspace = true }
+veilgov-encoding = { workspace = true }
+ark-bn254 = { workspace = true }
+ark-ff = { workspace = true }
+rand = { workspace = true }
+zeroize = { workspace = true }
+serde = { workspace = true }
+hex = { workspace = true }
